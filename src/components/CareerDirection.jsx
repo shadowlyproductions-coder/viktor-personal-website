@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading.jsx";
 
 export default function CareerDirection() {
   return (
-    <AnimatedSection id="direction" className="border-y border-white/[0.06] bg-[#141311]">
+    <AnimatedSection id="direction" className="border-y border-white/[0.06] bg-carbon/90">
       <div className="container-shell">
         <SectionHeading eyebrow="Direction" title="Where I Am Going">
           I'm building toward roles where the work is real - environments that demand reliability,

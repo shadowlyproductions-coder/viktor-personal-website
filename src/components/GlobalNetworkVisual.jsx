@@ -101,14 +101,14 @@ export default function GlobalNetworkVisual() {
         >
           <defs>
             <linearGradient id="globalNetworkFadeX" x1="0%" x2="100%" y1="0%" y2="0%">
-              <stop offset="0%" stopColor="#080f15" stopOpacity="0.4" />
-              <stop offset="50%" stopColor="#080f15" stopOpacity="0" />
-              <stop offset="100%" stopColor="#080f15" stopOpacity="0.4" />
+              <stop offset="0%" stopColor="#030A1C" stopOpacity="0.4" />
+              <stop offset="50%" stopColor="#030A1C" stopOpacity="0" />
+              <stop offset="100%" stopColor="#030A1C" stopOpacity="0.4" />
             </linearGradient>
             <linearGradient id="globalNetworkFadeY" x1="0%" x2="0%" y1="100%" y2="0%">
-              <stop offset="0%" stopColor="#080f15" stopOpacity="0.5" />
-              <stop offset="50%" stopColor="#080f15" stopOpacity="0" />
-              <stop offset="100%" stopColor="#080f15" stopOpacity="0.25" />
+              <stop offset="0%" stopColor="#030A1C" stopOpacity="0.5" />
+              <stop offset="50%" stopColor="#030A1C" stopOpacity="0" />
+              <stop offset="100%" stopColor="#030A1C" stopOpacity="0.25" />
             </linearGradient>
           </defs>
 
@@ -138,7 +138,7 @@ export default function GlobalNetworkVisual() {
       </div>
 
       {nodeEditorMode ? (
-        <div className="fixed bottom-4 right-4 z-50 max-h-[45vh] w-[min(30rem,calc(100vw-2rem))] overflow-auto rounded-lg border border-white/10 bg-[#080f15]/95 p-4 text-left shadow-2xl backdrop-blur">
+        <div className="fixed bottom-4 right-4 z-50 max-h-[45vh] w-[min(30rem,calc(100vw-2rem))] overflow-auto rounded-lg border border-white/10 bg-midnight/95 p-4 text-left shadow-2xl backdrop-blur">
           <p className="text-xs font-semibold uppercase tracking-wide text-white/70">
             Node editor
           </p>

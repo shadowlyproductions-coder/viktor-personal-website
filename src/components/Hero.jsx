@@ -24,7 +24,7 @@ const item = {
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen overflow-hidden pb-14 pt-24 sm:pb-20 sm:pt-32 lg:pt-36">
-      <div className="absolute inset-0 bg-subtle-warm" />
+      <div className="absolute inset-0 bg-subtle-navy" />
       <div className="container-shell relative grid grid-cols-1 items-center gap-10 sm:gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-14">
         <motion.div className="min-w-0" initial={false} animate="visible" variants={stagger}>
           <motion.p variants={item} className="eyebrow">
@@ -38,7 +38,7 @@ export default function Hero() {
           </motion.h1>
           <motion.p
             variants={item}
-            className="mt-5 max-w-3xl break-words text-lg font-medium leading-7 text-[#d9d2c9] sm:mt-6 sm:text-2xl sm:leading-8"
+            className="mt-5 max-w-3xl break-words text-lg font-medium leading-7 text-ice/90 sm:mt-6 sm:text-2xl sm:leading-8"
           >
             Airport Security & Hospitality Professional — Customer Focused
           </motion.p>
@@ -54,7 +54,7 @@ export default function Hero() {
           <motion.div variants={item} className="mt-8 flex flex-col gap-3 sm:mt-9 sm:flex-row">
             <a
               href="#experience"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-electric px-6 py-3 text-sm font-semibold text-midnight transition hover:bg-[#d4a370] sm:w-auto"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-electric px-6 py-3 text-sm font-semibold text-midnight transition hover:bg-[#9ec7ff] sm:w-auto"
             >
               View Experience
               <ArrowDown size={18} />
@@ -79,7 +79,7 @@ export default function Hero() {
                   <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg text-electric">
                     <Icon size={18} />
                   </span>
-                  <span className="text-sm font-medium text-[#d9d2c9]">{highlight.label}</span>
+                  <span className="text-sm font-medium text-ice/90">{highlight.label}</span>
                 </div>
               );
             })}

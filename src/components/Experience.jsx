@@ -28,7 +28,7 @@ export default function Experience() {
                       ) : null}
                     </div>
                     <h3 className="mt-3 text-xl font-semibold text-ice sm:text-2xl">{role.role}</h3>
-                    <p className="mt-2 text-sm font-medium text-[#d9d2c9] sm:text-base">{role.company}</p>
+                    <p className="mt-2 text-sm font-medium text-ice/90 sm:text-base">{role.company}</p>
                     <div className="mt-4 inline-flex items-center gap-2 text-sm text-steel">
                       <MapPin size={16} className="text-electric" />
                       {role.location}

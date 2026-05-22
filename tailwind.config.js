@@ -4,23 +4,25 @@ export default {
   theme: {
     extend: {
       colors: {
-        midnight: "#100f0d",
-        carbon: "#171614",
-        graphite: "#24211d",
-        steel: "#a79f94",
-        electric: "#c6925f",
-        ice: "#f4f1eb",
+        midnight: "#030A1C",
+        carbon: "#051024",
+        graphite: "#061831",
+        navyDark: "#0B1C3E",
+        navyBase: "#11244A",
+        steel: "#B7C8E8",
+        electric: "#7DB3FF",
+        ice: "#F2F7FF",
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        glow: "0 16px 44px rgba(198, 146, 95, 0.12)",
-        premium: "0 24px 70px rgba(0, 0, 0, 0.28)",
+        glow: "0 16px 44px rgba(125, 179, 255, 0.16)",
+        premium: "0 24px 70px rgba(0, 6, 24, 0.42)",
       },
       backgroundImage: {
-        "subtle-warm":
-          "radial-gradient(circle at 22% 12%, rgba(198, 146, 95, 0.11), transparent 32%)",
+        "subtle-navy":
+          "radial-gradient(circle at 22% 12%, rgba(125, 179, 255, 0.13), transparent 34%), radial-gradient(circle at 78% 8%, rgba(17, 36, 74, 0.26), transparent 30%)",
       },
     },
   },

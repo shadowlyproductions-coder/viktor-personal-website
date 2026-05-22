@@ -28,7 +28,7 @@ export default function PersonalBrand() {
             ))}
             <div className="rounded-lg border border-electric/25 bg-electric/5 p-4 sm:col-span-2 sm:p-5">
               <p className="text-sm font-medium text-electric">Professional Translation</p>
-              <p className="mt-3 text-sm leading-7 text-[#d9d2c9] sm:text-base">
+              <p className="mt-3 text-sm leading-7 text-ice/90 sm:text-base">
                 What the gym teaches, the workplace proves.
               </p>
             </div>

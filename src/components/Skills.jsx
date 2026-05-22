@@ -4,7 +4,7 @@ import SectionHeading from "./SectionHeading.jsx";
 
 export default function Skills() {
   return (
-    <AnimatedSection id="skills" className="border-y border-white/[0.06] bg-[#141311]">
+    <AnimatedSection id="skills" className="border-y border-white/[0.06] bg-carbon/90">
       <div className="container-shell">
         <SectionHeading eyebrow="Skills" title="One foot in security. One in service.">
           Discipline from security work, people skills from hospitality. I know how to handle

@@ -22,7 +22,7 @@ const qualities = [
 
 export default function About() {
   return (
-    <AnimatedSection id="about" className="relative border-y border-white/[0.06] bg-[#141311]">
+    <AnimatedSection id="about" className="relative border-y border-white/[0.06] bg-carbon/90">
       <div className="container-shell grid grid-cols-1 gap-8 sm:gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-center">
         <SectionHeading eyebrow="About" title="Professional, steady, and built for demanding environments.">
           I have a background in airport security and hospitality - roles that demand composure,
